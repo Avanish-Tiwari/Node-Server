@@ -10,7 +10,8 @@ const pool =require("./db");
 app.use(cors({
   origin: [
     'http://localhost:5173',           // local dev
-    'https://node-server-production-c5a5.up.railway.app'      // production (update after Vercel deploy)
+    'https://node-server-production-c5a5.up.railway.app',      // production (update after Vercel deploy)
+    'https://login-app-ivory-six.vercel.app'  // Vercel frontend
   ],
   credentials: true
 }));
